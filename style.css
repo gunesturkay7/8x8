@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.area {
+    margin: 3rem auto;
+    width: 400px;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.square {
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button-area {
+    display: flex;
+    justify-content: center ;
+}
+button {
+    padding: .5rem 1.5rem;
+    margin: 0 1rem;
+    cursor: pointer;
+}
